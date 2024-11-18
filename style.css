@@ -12,5 +12,14 @@ body {
   font-size: 50px;
   background-image: linear-gradient(45deg, #faa, yellow);
   border: 1px solid black;
-  
+}
+
+.greeting h3 {
+  color: red;
+}
+
+.greeting h3:hover {
+  color: lightskyblue;
+  pointer-events: stroke;
+  cursor: grab;
 }
