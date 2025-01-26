@@ -1,21 +1,35 @@
+* {
+  box-sizing: border-box;  
+}
+
 body {
-  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  inline-size: 100dvi;
+  margin: 0 auto;
+  padding: 0;
+}
+
+main {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 
 .greeting {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 30vw;
-  min-height: 20vh;
-  margin: 50px;
-  font-size: 50px;
+  flex-wrap: wrap;
+  inline-size: 100dvi;
+  font-family: Fira code, sans-serif;
+  font-size: 30px;
   background-image: linear-gradient(45deg, #faa, yellow);
   border: 1px solid black;
 }
 
 .greeting h3 {
-  color: red;
+  color: green;
 }
 
 .greeting h3:hover {
